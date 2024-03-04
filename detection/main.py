@@ -7,7 +7,7 @@ from time import sleep
 imagePath = r'img3.jpg'
 cascPath = "haarcascade_frontalface_default.xml"
 
-token = 'z6kZjpcYQj3xiwnPU5hr4DFBvVmY3tPAFloQieY3DUT'
+token = ''
 payload = {'message' : 'found someone'
           ,'notificationDisabled' : False}
 
