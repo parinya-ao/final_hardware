@@ -6,7 +6,7 @@ import face_recognition
 imagePath = r'img3.jpg'
 
 
-token = 'z6kZjpcYQj3xiwnPU5hr4DFBvVmY3tPAFloQieY3DUT'
+token = ''
 payload = {'message' : 'found someone'
           ,'notificationDisabled' : False}
 
@@ -17,8 +17,8 @@ while True :
 
     image = face_recognition.load_image_file('img3.jpg')
     face_location = face_recognition.face_locations(image)
-    print(f'There are {len(face_location)} faces found.')
     if len(face_location)>=1:
+        print(f'There are {len(face_location)} faces found.')
         r = requests.post('https://notify-api.line.me/api/notify'
                 , headers={'Authorization' : 'Bearer {}'.format(token)}
                 , params = payload
