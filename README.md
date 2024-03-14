@@ -41,6 +41,7 @@
 - NfcAdapter
 
 # File
+.
 📦final_hardware-main
  ┣ 📂camera
  ┃ ┣ 📜.skip.esp32c3
@@ -74,6 +75,7 @@
  ┣ 📜node_red_flows.json
  ┣ 📜OverAll.png
  ┗ 📜README.md
+ .
 
 ## Node-red
 ### flow
