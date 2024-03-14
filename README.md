@@ -30,6 +30,11 @@
 - esp_camera
 - camera_pins
 - WiFi
+- PubSubClient
+- Wire
+- PN532_I2C
+- PN532
+- NfcAdapter
 
 ## Node-red
 ### flow
