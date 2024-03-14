@@ -40,6 +40,41 @@
 - PN532
 - NfcAdapter
 
+# File
+📦final_hardware-main
+ ┣ 📂camera
+ ┃ ┣ 📜.skip.esp32c3
+ ┃ ┣ 📜.skip.esp32c6
+ ┃ ┣ 📜.skip.esp32h2
+ ┃ ┣ 📜app_httpd.cpp
+ ┃ ┣ 📜camera_index.h
+ ┃ ┣ 📜camera_pins.h
+ ┃ ┣ 📜main.ino
+ ┃ ┗ 📜partitions.csv
+ ┣ 📂circuit
+ ┃ ┣ 📜circuit_MAIN.pdf
+ ┃ ┗ 📜circuit_NFC.pdf
+ ┣ 📂detection
+ ┃ ┗ 📜main.py
+ ┣ 📂main
+ ┃ ┣ 📂lib
+ ┃ ┃ ┣ 📂servo
+ ┃ ┃ ┃ ┣ 📜__init__.py
+ ┃ ┃ ┃ ┗ 📜__main__.py
+ ┃ ┃ ┣ 📜.DS_Store
+ ┃ ┃ ┗ 📜ssd1306.py
+ ┃ ┣ 📜.DS_Store
+ ┃ ┣ 📜config.py
+ ┃ ┗ 📜main.py
+ ┣ 📂NFC
+ ┃ ┣ 📜config.h
+ ┃ ┗ 📜main.ino
+ ┣ 📜.gitignore
+ ┣ 📜LICENSE
+ ┣ 📜node_red_flows.json
+ ┣ 📜OverAll.png
+ ┗ 📜README.md
+
 ## Node-red
 ### flow
 ![image](https://github.com/parinya-ao/final_hardware/assets/159911463/89855bb3-d5a1-4197-a8f4-a7f79329085d)
