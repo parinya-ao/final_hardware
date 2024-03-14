@@ -15,6 +15,22 @@
 5. OLED (1)
 6. SG90 Micro Servo (1)
 
+## libraries
+### Python
+- face_recognition
+- requests
+- time
+- machine
+- hashlib
+- ssd1306
+- network
+- servo
+- umqtt.simple
+### C
+- esp_camera
+- camera_pins
+- WiFi
+
 ## Node-red
 ### flow
 ![image](https://github.com/parinya-ao/final_hardware/assets/159911463/89855bb3-d5a1-4197-a8f4-a7f79329085d)
