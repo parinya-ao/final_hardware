@@ -20,7 +20,8 @@
 [ใส่ flow]
 
 ### ui
-![Uploading image.png…]()
+![image](https://github.com/parinya-ao/final_hardware/assets/159911463/91988040-0d57-4a0a-8419-91130cd87515)
+
 
 
 
