@@ -14,6 +14,7 @@
 4. 4x3 Matrix Keypad Module
 5. OLED (1)
 6. SG90 Micro Servo (1)
+7. Buzzer (1)
 
 ## libraries
 ### Python
