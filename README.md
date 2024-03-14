@@ -1,4 +1,4 @@
-# The privalazy Door
+# The privlazy Door
 
 ## ที่มาและแนวคิดการออกแบบ
 
