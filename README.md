@@ -16,7 +16,9 @@
 6. SG90 Micro Servo (1)
 7. Buzzer (1)
 
+
 ## libraries
+
 ### Python
 - face_recognition
 - requests
@@ -27,6 +29,7 @@
 - network
 - servo
 - umqtt.simple
+
 ### C
 - esp_camera
 - camera_pins
