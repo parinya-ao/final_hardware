@@ -43,16 +43,16 @@
 # File
 .
 📦final_hardware-main
- ┣ 📂camera
- ┃ ┣ 📜.skip.esp32c3
- ┃ ┣ 📜.skip.esp32c6
- ┃ ┣ 📜.skip.esp32h2
- ┃ ┣ 📜app_httpd.cpp
- ┃ ┣ 📜camera_index.h
- ┃ ┣ 📜camera_pins.h
- ┃ ┣ 📜main.ino
- ┃ ┗ 📜partitions.csv
- ┣ 📂circuit
+ +- 📂camera
+ | ┣ 📜.skip.esp32c3
+ | ┣ 📜.skip.esp32c6
+ | ┣ 📜.skip.esp32h2
+ | ┣ 📜app_httpd.cpp
+ | ┣ 📜camera_index.h
+ | ┣ 📜camera_pins.h
+ | +-📜main.ino
+ | +- 📜partitions.csv
+ +- 📂circuit
  ┃ ┣ 📜circuit_MAIN.pdf
  ┃ ┗ 📜circuit_NFC.pdf
  ┣ 📂detection
@@ -75,7 +75,6 @@
  ┣ 📜node_red_flows.json
  ┣ 📜OverAll.png
  ┗ 📜README.md
- .
 
 ## Node-red
 ### flow
