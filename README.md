@@ -43,45 +43,45 @@
 # File
 <pre>
 final_hardware
-│   .gitignore #ควยไรสัส
-│   LICENSE
+│   .gitignore 
+│   LICENSE #
 │   node_red_flows.json
 │   OverAll.png
 │   README.md
 │
-├───camera
+├───camera #code on board esp32 wrover camera
 │       .skip.esp32c3
 │       .skip.esp32c6
 │       .skip.esp32h2
 │       app_httpd.cpp
-│       camera_index.h
-│       camera_pins.h
-│       main.ino
-│       partitions.csv
+│       camera_index.h # c/c++ code about sever (HTML file to gzip ) for camera
+│       camera_pins.h #define GPIO
+│       main.ino #main code
+│       partitions.csv #partitions table
 │
 ├───circuit
-│       circuit_MAIN.pdf
-│       circuit_NFC.pdf
+│       circuit_MAIN.pdf # overall circuit for main board
+│       circuit_NFC.pdf # overall circuit for board that connect with NFC
 │
-├───detection
+├───detection # python code for face detection 
 │       main.py
 │
-├───main
+├───main # code of main board (micropython)
 │   │   .DS_Store
-│   │   config.py
-│   │   main.py
+│   │   config.py #config for conect mqtt
+│   │   main.py #main code
 │   │
 │   └───lib
 │       │   .DS_Store
-│       │   ssd1306.py
+│       │   ssd1306.py #library for OLED
 │       │
-│       └───servo
+│       └───servo # Library for servo
 │               __init__.py
 │               __main__.py
 │
-└───NFC
-        config.h
-        main.ino
+└───NFC # code .ion for board to control nfc
+        config.h #config for mqtt conection
+        main.ino # main code
 </pre>
 
 ## Node-red
