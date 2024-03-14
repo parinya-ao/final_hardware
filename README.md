@@ -42,7 +42,7 @@
 
 # File
 <pre>
-
+final_hardware
 │   .gitignore
 │   LICENSE
 │   node_red_flows.json
